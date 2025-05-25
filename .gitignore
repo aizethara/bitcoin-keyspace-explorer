@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Output results
+output.txt
+
+# System files (e.g., macOS and Windows)
+.DS_Store
+Thumbs.db
