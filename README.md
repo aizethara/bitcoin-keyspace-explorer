@@ -38,7 +38,7 @@ It is intended purely for **cryptographic research**, academic study, and to ill
 
 > **Note:** This method is a **conceptual demonstration**. Even with this prefix/suffix approach, the effective search space remains astronomically large, making real-world key discovery practically impossible.
 
-## **About Suffix Exploration & Bitcoin Puzzle Context**
+## `About Suffix Exploration & Bitcoin Puzzle Context`
 
 This project implements a **keyspace search method** by fixing a large random prefix (120 bits) and iterating exhaustively over all possible 16-bit suffixes, effectively exploring a small slice of the **256-bit private key space**.
 
