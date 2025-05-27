@@ -1,0 +1,27 @@
+{
+  "name": "bitcoin-keyspace-explorer",
+  "version": "1.0.0",
+  "description": "Educational keyspace explorer for Bitcoin and Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "aizethara",
+  "license": "MIT",
+  "dependencies": {
+    "bech32": "^2.0.0",
+    "bitcoinjs-lib": "^6.1.0",
+    "bs58check": "^2.1.2",
+    "ethereum-cryptography": "^1.2.0",
+    "secp256k1": "^4.0.2",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aizethara/bitcoin-keyspace-explorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aizethara/bitcoin-keyspace-explorer/issues"
+  },
+  "homepage": "https://github.com/aizethara/bitcoin-keyspace-explorer#readme"
+}

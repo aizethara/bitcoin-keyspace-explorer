@@ -80,7 +80,7 @@ function generateBtcAddresses(privKey) {
     const scriptH160 = crypto.createHash('ripemd160')
       .update(crypto.createHash('sha256').update(redeemScript).digest())
       .digest();
-    const p2shwU = bs58check.default.encode(Buffer.concat([Buffer.from([0x05]), scriptH160]));
+    const p2shwU = bs58check.encode(Buffer.concat([Buffer.from([0x05]), scriptH160]));
     // P2TR compressed
     const tap = bitcoin.payments.p2tr({ pubkey: pubC.slice(1) }).address;
     return {
