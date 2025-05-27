@@ -53,10 +53,10 @@ By implementing this approach, the tool helps visualize the cryptographic princi
 
 - **Increasing your chances:**
 If your goal is to participate in real Bitcoin Puzzle challenges, your only meaningful chance is to use hardware acceleration. That means:
-- Running on multiple **RTX 4000-class GPUs** or better
-- Writing compute kernels in [CUDA](https://developer.nvidia.com/cuda-toolkit) (not using the CPU)
-- Focusing exclusively on the **known key ranges** published by the [Bitcoin Puzzle project](https://bitcointalk.org/index.php?topic=1306983.0)
-- Optionally, using **ASICs** if available, though they require custom firmware or firmware exploitation to repurpose for this task.
+   - Running on multiple **RTX 4000-class GPUs** or better
+   - Writing compute kernels in [CUDA](https://developer.nvidia.com/cuda-toolkit) (not using the CPU)
+   - Focusing exclusively on the **known key ranges** published by the [Bitcoin Puzzle project](https://bitcointalk.org/index.php?topic=1306983.0)
+   - Optionally, using **ASICs** if available, though they require custom firmware or firmware exploitation to repurpose for this task.
 
 ## Usage
 
