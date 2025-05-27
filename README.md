@@ -38,20 +38,20 @@ It is intended purely for **cryptographic research**, academic study, and to ill
 
 > **Note:** This method is a **conceptual demonstration**. Even with this prefix/suffix approach, the effective search space remains astronomically large, making real-world key discovery practically impossible.
 
-## `About Suffix Exploration & Bitcoin Puzzle Context`
+## **About Suffix Exploration & Bitcoin Puzzle Context**
 
 This project implements a **keyspace search method** by fixing a large random prefix (120 bits) and iterating exhaustively over all possible 16-bit suffixes, effectively exploring a small slice of the **256-bit private key space**.
 
-- `**Bitcoin Puzzle relevance:**`
+- **Bitcoin Puzzle relevance:**
 Some cryptographic puzzles and challenges rely on finding keys within a constrained subset of the keyspace (e.g., known prefix or suffix). This tool demonstrates how such constrained searches operate in practice.
 
-- `**Efficiency considerations:**`
+- **Efficiency considerations:**
 Despite limiting the search to a 16-bit suffix (65,536 possibilities), the overall keyspace remains astronomically large. The computational cost to find even a single matching key remains impractical for real-world scenarios.
 
-- `**Educational value:**`
+- **Educational value:**
 By implementing this approach, the tool helps visualize the cryptographic principles behind Bitcoin and Ethereum key generation, the impracticality of brute-force attacks, and the structure of key derivation.
 
-- `**Increasing your chances:**`
+- **Increasing your chances:**
 If your goal is to participate in real Bitcoin Puzzle challenges, your only meaningful chance is to use hardware acceleration. That means:
 - Running on multiple **RTX 4000-class GPUs** or better
 - Writing compute kernels in [CUDA](https://developer.nvidia.com/cuda-toolkit) (not using the CPU)
